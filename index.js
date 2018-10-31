@@ -18,7 +18,7 @@ function moveDodger(event) {
    
    //170 + 'px'
 
- dodger.style.left = oldLeft - 10 + 'px'
+ dodger.style.left = (oldLeft - 10) + 'px'
    //figure out where it is
  } else if (keycode === 39) {
    // this is the right arrow key
