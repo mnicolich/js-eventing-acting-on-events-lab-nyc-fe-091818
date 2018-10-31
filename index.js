@@ -30,7 +30,7 @@ function moveDodger(event) {
       let oldLocation = dodger.style.left 
       //'180px'
       
-      if (oldLocation === '400px') {
+      if (oldLocation === '360px') {
         return
       }  
       
@@ -40,6 +40,4 @@ function moveDodger(event) {
     dodger.style.left = (oldLocation + 10) + 'px'
     }
   }
-  
-dodger.addEventlistener('keydown', moveDodger)
-
+  document.addEventListener('keydown', moveDodger)
