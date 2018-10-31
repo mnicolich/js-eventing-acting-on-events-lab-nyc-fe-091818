@@ -23,13 +23,11 @@ function moveDodger(event) {
    //170 + 'px'
 
  dodger.style.left = (oldLeft - 10) + 'px'
-   //figure out where it is
- } else if (keycode === 39) {
-   // this is the right arrow key
- } else if (keycode === 38) {
-   // up arrow key
- } else if (keycode === 40) {
-   //down arrow key 
- }
-}
+  
+  function moveDodgerRight(event) {
+    if (event.which === 39) {
+      
+    }
+  }
+  
 dodger.addEventlistener('keydown', moveDodger)
