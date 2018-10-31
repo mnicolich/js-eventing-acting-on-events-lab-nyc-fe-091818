@@ -7,11 +7,12 @@ let dodgerPosition = 0
 
 function moveDodger(event) {
  const keycode = (event.which)
+}
  if (keycode === 37) {
    
    // this is the left arrow key 
    let oldLeft = dodger.style.left
-   
+ }
    if (oldLeft === '0px') {
      return
    }
