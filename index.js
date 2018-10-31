@@ -10,6 +10,10 @@ function moveDodger(event) {
  if (keycode === 37) {
    // this is the left arrow key 
    let oldLeft = dodger.style.left
+   
+   if (oldLeft === '0px') {
+     return
+   }
    // '180px'
 
    console.log(oldLeft)
