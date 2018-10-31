@@ -7,6 +7,8 @@ let dodgerPosition = 0
 
 function moveDodger(event) {
  const keycode = (event.which)
- 
+ if (keycode === 37) {
+   
+ }
 }
 dodger.addEventlistener('keydown', moveDodger)
