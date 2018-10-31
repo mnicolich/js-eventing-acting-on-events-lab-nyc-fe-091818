@@ -8,6 +8,7 @@ let dodgerPosition = 0
 function moveDodger(event) {
  const keycode = (event.which)
  if (keycode === 37) {
+   
    // this is the left arrow key 
    let oldLeft = dodger.style.left
    
@@ -28,6 +29,11 @@ function moveDodger(event) {
     if (event.which === 39) {
       let oldLocation = dodger.style.left 
       //'180px'
+      
+      if (oldLocation === '400px') {
+        return
+      }  
+      
     oldLocation = parseInt(oldLocation, 10)
     //180
     
@@ -36,3 +42,4 @@ function moveDodger(event) {
   }
   
 dodger.addEventlistener('keydown', moveDodger)
+
