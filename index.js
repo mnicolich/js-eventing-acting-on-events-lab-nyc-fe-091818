@@ -9,7 +9,8 @@ function moveDodger(event) {
  const keycode = (event.which)
  if (keycode === 37) {
    // this is the left arrow key 
-   dodger.style.left = '380px'
+   dodger.style.left
+   dodge.stlye.left = oldLeft - '10px'
    //figure out where it is
  } else if (keycode === 39) {
    // this is the right arrow key
