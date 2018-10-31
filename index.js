@@ -25,6 +25,9 @@ function moveDodger(event) {
    //170 + 'px'
 
  dodger.style.left = (oldLeft - 10) + 'px'
+ } else if (keycode == 39) {
+   moveDodgerRight(event)
+ }
   
   function moveDodgerRight(event) {
     if (event.which === 39) {
