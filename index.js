@@ -44,4 +44,5 @@ function moveDodger(event) {
     dodger.style.left = (oldLocation + 10) + 'px'
     }
   }
+  function moveDodgerRight() {}
   document.addEventListener('keydown', moveDodger)
